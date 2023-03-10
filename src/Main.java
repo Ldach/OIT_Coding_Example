@@ -56,6 +56,7 @@ public class Main
       //Initializes variables to starting conditions
       won = false;
       asciiHelper = 0;
+      allChars.delete(0,allChars.length());
 
       System.out.println("Your word is " + theWord.length() + " letters long"); //Prints length of the word to be guessed
 
